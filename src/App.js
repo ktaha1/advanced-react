@@ -4,11 +4,12 @@ import React from "react";
 //import ArraysUseState from "./useStat/array";
 //import Object from "./useStat/object";
 //import Counter from "./useStat/counter";
-import Basics from "./useEffect/basics";
+//import Basics from "./useEffect/basics";
+import CleanUp from "./useEffect/cleanUp";
 
 const App = () => (
   <div className="container">
-    <Basics />
+    <CleanUp />
   </div>
 );
 export default App;

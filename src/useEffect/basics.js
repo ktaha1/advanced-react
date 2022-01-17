@@ -4,10 +4,11 @@ const Basics = () => {
   let [value, setValue] = useState(0);
 
   useEffect(() => {
+    console.log("call useEffect ...");
     if (value > 0) {
       document.title = `New Message (${value})`;
     }
-  });
+  }, [value]);
   return (
     <>
       <section>
