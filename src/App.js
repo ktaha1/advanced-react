@@ -3,11 +3,12 @@ import React from "react";
 //import BasicUseState from "./useStat/basics";
 //import ArraysUseState from "./useStat/array";
 //import Object from "./useStat/object";
-import Counter from "./useStat/counter";
+//import Counter from "./useStat/counter";
+import Basics from "./useEffect/basics";
 
 const App = () => (
   <div className="container">
-    <Counter />
+    <Basics />
   </div>
 );
 export default App;
