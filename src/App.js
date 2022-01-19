@@ -5,11 +5,12 @@ import React from "react";
 //import Object from "./useStat/object";
 //import Counter from "./useStat/counter";
 //import Basics from "./useEffect/basics";
-import CleanUp from "./useEffect/cleanUp";
+//import CleanUp from "./useEffect/cleanUp";
+import FetchUsers from "./useEffect/fetchData";
 
 const App = () => (
   <div className="container">
-    <CleanUp />
+    <FetchUsers />
   </div>
 );
 export default App;
