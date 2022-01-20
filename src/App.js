@@ -6,11 +6,12 @@ import React from "react";
 //import Counter from "./useStat/counter";
 //import Basics from "./useEffect/basics";
 //import CleanUp from "./useEffect/cleanUp";
-import FetchUsers from "./useEffect/fetchData";
+//import FetchUsers from "./useEffect/fetchData";
+import Conditional from "./conditional-rendering/conditional";
 
 const App = () => (
   <div className="container">
-    <FetchUsers />
+    <Conditional />
   </div>
 );
 export default App;
